@@ -1,44 +1,44 @@
-Citizen-Admin Issue Reporting System
+# Citizen-Admin Issue Reporting System 🚨🏛️
 
-A full-stack web application that allows citizens to report civic issues (like potholes, garbage, streetlights) and admins to manage these issues efficiently. Built with Next.js, Firebase Authentication, Prisma ORM, PostgreSQL, and Leaflet.js for map-based location selection.
+![Next.js](https://img.shields.io/badge/Next.js-13-black?logo=next.js)
+![React](https://img.shields.io/badge/React-18-blue?logo=react)
+![Firebase](https://img.shields.io/badge/Firebase-Authentication-yellow?logo=firebase)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-13-blue?logo=postgresql)
+![License](https://img.shields.io/badge/License-MIT-green)
 
-Features
-Citizen
+A full-stack web application that allows **citizens** to report civic issues (potholes, garbage, streetlights, etc.) and **admins** to manage them efficiently. Features interactive maps, role-based dashboards, and real-time authentication.
 
-Report new civic issues with title, description, location, priority, and category.
+---
 
-Interactive map to select issue location (Leaflet).
+## 🚀 Features
 
-View previously reported issues.
+### Citizen
+- Report new civic issues with title, description, location, priority, and category.
+- Interactive **Leaflet map** to select issue location.
+- View previously reported issues.
+- Authentication via Firebase.
 
-Authentication via Firebase.
+### Admin
+- View and manage all reported issues.
+- Filter issues by priority, category, or status.
+- Manage departments and assignments.
+- View issue locations on a map.
 
-Admin
+### Common
+- Role-based dashboard with sidebar navigation.
+- User profile dropdown with logout.
+- Responsive design with Tailwind CSS.
 
-View and manage all reported issues.
+---
 
-Filter issues by priority, category, or status.
+## 🛠️ Tech Stack
+- **Frontend:** Next.js 13, React 18, Tailwind CSS, Leaflet.js
+- **Backend:** Next.js API routes, Prisma ORM
+- **Database:** PostgreSQL
+- **Authentication:** Firebase Authentication
+- **Hosting:** Vercel (or any cloud platform)
 
-Manage departments and assignments.
+---
 
-View issue locations on a map.
+## 📁 Folder Structure
 
-Common
-
-Role-based dashboard: citizen/admin views.
-
-User profile dropdown with logout.
-
-Responsive design with sidebar navigation.
-
-Tech Stack
-
-Frontend: Next.js 13, React 18, Tailwind CSS, Leaflet
-
-Backend: Next.js API routes, Prisma ORM
-
-Database: PostgreSQL
-
-Authentication: Firebase Authentication
-
-Hosting: Vercel or other cloud platform
